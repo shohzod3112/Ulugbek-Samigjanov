@@ -1,0 +1,30 @@
+.rounded_image {
+    width: 250px;
+    border-radius: 12px;
+}
+
+.circle_image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+/* Rounded images end */
+
+.thumbnail-image {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+/* Thumbnail images end */
+
+.opacity-image {
+    width: 300px;
+    opacity: 0.5;
+}
+
+.opacity-image:hover {
+    opacity: 1;
+}

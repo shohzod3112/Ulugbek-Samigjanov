@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms bilan mashq</title>
+</head>
+<!-- Formalar asosan foydalanuvchidan ma'lumotlani olib serverga qayta ishlash uchun yuborishda ishlatiladi -->
+<body>
+    <form action="./server.py" method="get">
+        <label for="username" name="username">Username</label>
+        <input type="text" name="username" id="username">
+        <br> <br>
+        <label for="passwd" name="passwd">Password</label>
+        <input type="password" id="passwd" name="passwd">
+        <br> <br>
+        <label for="email" name="email">Emailingiz</label>
+        <input type="email" id="email" name="email"> <br> <br>
+        <label for="sana" name="sana">Tug'ilgan sana</label>
+        <input type="date" id="sana" name="sana"> <br> <br>
+        <label for="students" name="student">Talaba</label>
+        <input type="checkbox" name="student" id="students"> <br> <br>
+        <hr>
+        <label for="erkak" name="gender">Erkak</label>
+        <input type="radio" name="gender" value="male" id="erkak"> <br><br>
+        <label for="ayol">Ayol</label>
+        <input type="radio" name="gender" value="female" id="ayol"> <br> <br>
+        <label for="passport" name="passport">Passportingizni rasmini yuklang...</label>
+        <input type="file" id="passport" name="passport"> <br> <br>
+        <label for="tajriba" name="experience">Tajribangiz(yil) </label>
+        <select name="experience" id="tajriba" name="experience">
+            <option value="0">Tajribam yoq</option>
+            <option value="1">1 yildan kam</option>
+            <option value="2">1 yildan ko'p</option>
+        </select>
+        <br> <br>
+        <label for="haqida" name="about">Siz haqingizda</label> <br>
+        <textarea name="about" id="haqida" cols="30" rows="10"></textarea> <br><br>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>

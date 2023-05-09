@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    width: 100vw;
+    height: 70px;
+    z-index: 1;
+}
+
+.navbar {
+    background-color: fuchsia;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    padding: 20px;
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+    height: 80%;
+}
+
+a {
+    display: inline-block;
+}
+
+.main_section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: blue; */
+}
+
+.position {
+    width: 80vw;
+}
+
+.fixed, .absolute, .relative {
+    width: 80vw;
+    /* height: 110vh; */
+    position: relative;
+    padding: 20px;
+}
+
+.but {
+    position: absolute;
+    /* top: 0; */
+    left: 50px;
+    bottom: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: violet;
+    border-radius: 20px;
+    text-align: center;
+    /* vertical-align: middle; */
+}
+
+.but p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fixed_box {
+    /* width: 50vw; */
+    height: 200px;
+    background-color: red;
+    position: fixed;
+    width: 50%;
+    top: 0;
+}
+
+.main_page {
+    position: relative;
+    top: 250px;
+    left: 200px;
+    width: 200px;
+    height: 40px;
+    background-color: violet;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.main_page a {
+    text-decoration: none;
+    /* display: inline-block; */
+    position: absolute;
+    top: 8px;
+    left: 60px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Absolute page */
+
+.positioned_box {
+    position: relative;
+    width: 800px;
+    padding: 50px;
+    background-color: red;
+}
+
+.absolute_box {
+    position: absolute;
+    width: 50%;
+    background-color: yellow;
+}
+
+/* Relative page */
+
+.block_box {
+    width: 800px;
+    padding: 50px;
+    background-color: red;
+}
+
+.relative_box {
+    position: relative;
+    width: 50%;
+    background-color: yellow;
+}
